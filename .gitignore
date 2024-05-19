@@ -1,0 +1,51 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Logs
+*.log
+
+# Dependency directories
+vendor/
+
+# Go build cache
+go-build/
+
+# IDE/editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Golang modules
+go.sum
+go.work
+
+# Sensitive information
+.env
+
+# Go test binary
+*.test
+
+# Go workspace
+go.work.sum
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Kubernetes
+*.yaml
+*.yml
+
+# Others
+*.tmp
+*.bak
+*.backup
+*.old
